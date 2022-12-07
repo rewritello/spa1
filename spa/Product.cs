@@ -8,6 +8,6 @@ namespace spa
 {
     internal class Product
     {
-        public static int id = 0;
+        public static int id = 0; // id продукта, используется для функционала меню
     }
 }
