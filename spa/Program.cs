@@ -16,7 +16,7 @@ namespace spa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StartForm());
+            Application.Run(new StartForm()); // форма для открытия стартовой формы
         }
     }
 }
