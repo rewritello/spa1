@@ -67,7 +67,7 @@ namespace spa
             db.closeConnection();
         }
 
-        private void ChangePassButton_Click(object sender, EventArgs e)
+        private void ChangePassButton_Click(object sender, EventArgs e) //кнопка сменить пароль
         {
             this.Close();
             ChangePassForm changePassForm = new ChangePassForm();
