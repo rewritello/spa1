@@ -157,6 +157,7 @@
             this.Name = "BasketForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SPA";
+            this.Load += new System.EventHandler(this.BasketForm_Load);
             this.ResumeLayout(false);
 
         }

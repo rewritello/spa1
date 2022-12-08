@@ -178,5 +178,10 @@ namespace spa
                     MessageBox.Show("Не удалось соединиться с каталогом!");
             }
         }
+
+        private void BasketForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
